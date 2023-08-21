@@ -1,0 +1,119 @@
+/* TOP SECTION */
+.top-section-container {
+    width: 100%;
+    background: #EFF8FF;
+    background-image: url("../Assets/Photos/header-building.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0% auto;
+    height: 760px;
+}
+
+.header__title-big {
+    margin-top: 100px;
+    color: #16100D;
+    font-size: 60px;
+    box-sizing: content-box;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.header__title-small {
+    color: rgba(22, 16, 13, 0.854);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.header__description {
+    width: 915px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(8px);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 10px;
+
+}
+
+.header__description__list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-normal {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #025595;
+    border-radius: 16px;
+}
+
+.description__list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.description__list-item span {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.22px;
+
+}
+
+.list-item__image_background {
+    padding: 15px;
+    border-radius: 100px;
+
+}
+
+.list-item__image_background img {
+    width: 30px;
+    height: 30px;
+}
+
+.description__list-item {
+    float: right;
+}
+
+.header__statistics {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.header__statistics h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__statistics span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
