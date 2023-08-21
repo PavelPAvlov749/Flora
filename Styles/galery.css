@@ -1,0 +1,126 @@
+.apartment_cards {
+    margin-top: 210px;
+}
+
+.apartment_cards__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: row;
+    gap: 41px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+}
+.card__photo {
+    /* width: 100%; */
+    width: 326px;
+    height: 296px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards__list__card {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+
+
+.card__icon {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(10px);
+
+}
+
+.card__image {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    width: 326px;
+    height: 296px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+}
+.card__name {
+    text-align: left;
+}
+.card__options{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+.card__location{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.image-1 {
+    background-image: url("../Assets/Photos/card1.png");
+
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.image-2 {
+    background-image: url("../Assets/Photos/card2.png");
+}
+
+.image-3 {
+    background-image: url("../Assets/Photos/card3.png");
+}
+
+.image-4 {
+    background-image: url("../Assets/Photos/card4.png");
+}
+
+.image-5 {
+    background-image: url("../Assets/Photos/card5.png");
+}
+
+.image-6 {
+    background-image: url("../Assets/Photos/card6.png");
+
+}
+
+.price {
+    color: #025595;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+}
+
+.card__price {
+    color: #025595;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 116.667% */
+    text-align: left;
+}

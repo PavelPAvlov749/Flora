@@ -1,0 +1,78 @@
+.rewiews {
+    margin-top: 150px;
+}
+
+.rewiiew {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
+.rewiew__text-container{
+    /* height: 30px; */
+
+}
+.rewiewer-avatar {
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: 0px -40px;
+    border-radius: 16px;
+}
+
+.rewiew__text {
+    color: #12181D;
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* margin-bottom: 70px; */
+    /* 218.75% */
+
+}
+
+.rewiwer-name {
+    margin-top: 70px;
+    display: inline-block;
+    align-self: flex-end;
+    justify-self: flex-end;
+    color: #12181D;
+    font-family: Syne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* margin-top: 70px; */
+    /* 150% */
+}
+
+.rewiwer-name span {
+    color: rgba(18, 24, 29, 0.50);
+    font-family: Syne;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.users_list {
+    margin-top: 70px;
+    /* box-sizing: content-box; */
+    flex-direction: row;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    float: right;
+    /* justify-content: space-between; */
+}
+
+.users_list__item--circle-img {
+    border-radius: 360px;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+}
