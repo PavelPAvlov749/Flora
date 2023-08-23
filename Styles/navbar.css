@@ -2,7 +2,6 @@
     background: #EFF8FF;
     padding-top: 10px;
     width: 100%;
-
 }
 
 .header__navbar {
@@ -35,3 +34,13 @@
     background-color: #025595;
 }
 
+@media(max-width:675px) {
+    .navbar__list {
+        display: none;
+    }
+    .header__navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

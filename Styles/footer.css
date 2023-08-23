@@ -16,6 +16,7 @@ footer {
     max-width: 326px;
     width: 100%;
     gap: 26px;
+    display: none;
 }
 
 .footer-logo p {
@@ -32,6 +33,7 @@ footer {
     width: 61.3px;
     height: 50.813px;
     flex-shrink: 0;
+    
 }
 
 .service {
@@ -82,3 +84,35 @@ address {
     display: flex;
     align-items: center;
 }
+
+
+@media(max-width:675px) {
+    .navbar__logo_img {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    .service {
+        float: left;
+        width: 48%;
+    }
+    .service h3 {
+        text-align: left;
+    }
+    .about {
+        width: 48%;
+        text-align: right;
+    }
+    .about h3 {
+        text-align: right;
+    }
+    .location {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .social-links {
+        justify-content: center;
+    }
+}
+

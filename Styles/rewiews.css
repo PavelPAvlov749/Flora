@@ -76,3 +76,12 @@
     height: 60px;
     width: 60px;
 }
+
+@media(max-width:784px) {
+    .rewiiew {
+        flex-direction: column-reverse;
+    }
+    .rewiewer-avatar {
+        display: none;
+    }
+}
