@@ -138,7 +138,7 @@
         grid-gap: 5px;
         grid-auto-rows: 1fr;
     }
-
+    
     .card__location {
         flex-wrap: wrap;
         word-break: break-all;

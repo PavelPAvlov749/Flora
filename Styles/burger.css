@@ -92,22 +92,25 @@
 #menu
 {
   position: fixed;
-  width: 105%;
-  height: 100%;
+  width: 110%;
+  height: 105%;
   margin: -120px 0 0 -50px;
   padding: 0px;
-  padding-top: 125px;
+  padding-top: 225px;
   text-align: center;
-  justify-content: center;
+  justify-content:flex-start;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #edededf9;
+  background: #ededed;
+  background-image: url("../Assets/Photos/header-building.png");
   list-style-type: none;
   -webkit-font-smoothing: antialiased;   
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
